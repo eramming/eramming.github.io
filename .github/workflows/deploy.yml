@@ -27,5 +27,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-              cd eramming.github.io
+              cd eramming/eramming.github.io
               git pull
