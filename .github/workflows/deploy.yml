@@ -27,5 +27,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-              cd /home/eramming/CMSC388T/cmsc388T-web-template
+              cd /homes/eramming/eramming.github.io
               git pull
