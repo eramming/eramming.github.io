@@ -27,5 +27,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
               unalias rm
-              pwd
-              rm -rf eramming/eramming.github.io
+              rm -rf /eramming.github.io
